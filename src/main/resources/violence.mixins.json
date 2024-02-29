@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "vg.skye.violence.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CompatMixin",
+    "GeometryLoaderManagerMixin",
+    "RenderRegionMixin",
+    "VibeCheckerImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": []
+}

@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "violence",
+	"version": "${version}",
+	"name": "Violence",
+	"description": "A bad way to solve problems.",
+	"authors": [
+		"Skye"
+	],
+	"contact": {
+		"sources": "https://github.com/vgskye/violence"
+	},
+	"license": "LGPL-3.0-or-later",
+	"icon": "assets/violence/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"vg.skye.violence.Violence"
+		]
+	},
+	"mixins": [
+		"violence.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
